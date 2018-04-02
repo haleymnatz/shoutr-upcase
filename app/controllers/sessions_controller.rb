@@ -21,6 +21,3 @@ class SessionsController < Clearance::SessionsController
     params[:session][:email_or_username]
   end
 end
-
-# pass in underscore as params
-# merge
